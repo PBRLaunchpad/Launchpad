@@ -1,0 +1,131 @@
+.mail_sub_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #0f0f0f;
+    flex-direction: column;
+    padding: 0px 5px 123px 1px;
+ }
+
+ .mail_sub_div h1{
+    font-size: 40px;
+    padding: 80px;
+    width: 69%;
+ }
+ .mail_div{
+    position: relative;  
+ }
+ .img_1{
+    color: transparent;
+    position: absolute;
+    left: -2%;
+    width: 17%;
+    height: 50%;
+    top: -20%;
+ }
+ .img_2{
+    color: transparent;
+    width: 7%;
+    height: 16%;
+    bottom: 0%;
+    position: absolute;
+    left: 0%;
+ }
+ .img_3{
+    position: absolute;
+    right: -2%;
+    height: 108%;
+    width: 36%;
+    top: 0%;
+ }
+ .input_div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: row;
+    background-color: transparent;
+    border: 2px solid #696869;
+    padding: 5px;
+    width: 56%;
+    height: 45px;
+    border-radius: 48px;
+
+ }
+ .input_div input{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    margin-left: 29px;
+    outline: none;
+ }
+ .input_div button{
+    
+    padding: 13px 41px;
+    border-radius: 32px;
+    background-color: #ffffff;
+    color: black;
+
+ }
+ .mail_sample_div{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 75%;
+    margin-left: -15%;
+
+ }
+ @media (max-width: 730px) {
+   .mail_sub_div h1 {
+      font-size: 20px;
+      padding: 80px;
+      width: 100%;
+   }
+   .img_1 {
+      color: transparent;
+      position: absolute;
+      left: -1%;
+      width: 25%;
+      height: 30%;
+      top: -12%;
+  }
+  .img_3 {
+      position: absolute;
+      right: -2%;
+      height: 85%;
+      width: 52%;
+      top: 36%;
+   }
+   .img_2 {
+      color: transparent;
+      width: 20%;
+      height: 18%;
+      bottom: 4%;
+      position: absolute;
+      left: 3%;
+   }
+   .input_div {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      align-content: center;
+      flex-direction: row;
+      background-color: transparent;
+      border: 2px solid #696869;
+      padding: 5px;
+      width: 113%;
+      margin-left: 45px;
+      height: 45px;
+      z-index: 99;
+      border-radius: 48px;
+  }  
+
+
+  
+  
+ }

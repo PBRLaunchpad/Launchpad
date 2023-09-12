@@ -1,0 +1,124 @@
+*{
+    color: white;
+}
+.head_h1{    
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-top: 116px;
+}
+.style_1{
+    position: absolute;
+    width: 101%;
+    overflow: hidden;
+    height: 192%;
+}
+.style_1 img{
+    position: absolute;
+    top: -38px;
+    right: -3%;
+    z-index: -99;
+    height: 107%;
+    width: 16%;
+}
+.light{
+    background: radial-gradient(circle, rgba(135,121,209,1) -7%, rgba(135,121,209,0) 27%);
+    position: absolute;
+    width: 123%;
+    height: 292%;
+    z-index: -99;
+    left: 40%;
+}
+.fcollections{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: -2%;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 54px 12px 14px 198px;
+}
+.fcard{
+    width: 100%;
+    background-color: #1a1926;
+    padding: 17px 46px 32px 48px;
+    height: 410px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+}
+.image_style{
+    color: transparent;
+    position: absolute;
+    left: -20px;
+}
+.fcollections button{
+    padding: 18px 54px;
+    margin-left: 30px;
+    border-radius: 39px;
+    background-color: #f261bf;
+
+}
+.cards_ele{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 29px;
+}
+.scroller_div{
+    overflow-x: scroll;
+    width: 85%;
+}
+.scroller_div::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+@media (max-width: 730px) {
+    html{
+        overflow-x: hidden;
+    }
+    .image_style {
+        color: transparent;
+        position: absolute;
+        left: -20px;
+        top: -131px;
+        z-index: -1;
+    }
+    .fcollections {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        margin-left: -2%;
+        height: -moz-fit-content;
+        height: fit-content;
+        width: 130%;
+        overflow: hidden;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 77px 0px 27px 0px;
+    }
+    .head_img1{
+            color: transparent;
+            width: 77px;
+            margin-top: -65px;
+            height: 81px;
+            margin-left: -20px;
+    }
+    
+}

@@ -1,0 +1,93 @@
+.apply{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 21%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.app_cont{    
+    display: flex;
+    z-index: 9;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.apply img{
+    position: absolute;
+    width: 105%;
+    height: 165%;
+    right: 0px;
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+    top: 0px;
+    z-index: -1;
+}
+.clr_1{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: radial-gradient(circle, rgba(226,70,172,3) -55%, rgba(135,121,209,0) 63%);
+}
+.clr_2{
+    position: absolute;
+    width: 50%;
+    right: 18%;
+    top: 36%;
+    height: 53%;
+    background: radial-gradient(circle, rgba(153,133,249,1) -13%, rgba(135,121,209,0) 46%);
+}
+.clr_3{
+    position: absolute;
+    width: 50%;
+    right: 30%;
+    top: 34%;
+    height: 50%;
+    background: radial-gradient(circle, rgba(225,174,40,1) -78%, rgba(135,121,209,-1) 54%);
+}
+.app_cont h1{
+    font-size: 58px;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    flex-direction: row;
+}
+.app_cont p{
+    font-size: 14px;
+    display: flex;
+    margin-top: -26px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.app_cont button{
+    padding: 14px 38px;
+    border-radius: 24px;
+    background: #ffffff;
+    z-index: 99;
+    color: black;
+    border: none;
+}
+.center_cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.clr_4{
+    position: absolute;
+    width: 105%;
+    margin-left: -3%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(12,12,12,0) -2%, rgba(12,12,12,1) 52%);
+}

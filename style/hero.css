@@ -1,0 +1,126 @@
+.cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 36%;
+    color: white;
+    position: relative;
+}
+.right{
+    width: 50%;
+    position: relative;
+}
+.right img{
+    color: transparent;
+    width: 100%;
+    height: 100%;
+}
+.left p{
+    font-size: 12px;
+    margin-top: -13px;
+}
+.left h1{
+    font-size: 45px;
+}
+.left span{
+    font-size: 39px;
+    background: linear-gradient(45deg, #ed65c4, #a190f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.content{
+    line-height: 47px;
+}
+.button_style{
+    padding: 13px 25px;
+    border-radius: 24px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #595659;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.btn_active{
+    background-color: white !important;
+    color: black !important;
+}
+.button_container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bg_style{
+    position: relative;
+}
+.bg_style img{
+    color: transparent;
+    position: absolute;    
+    z-index: -9999;
+    left: -23%;
+
+}
+.tost_line{
+    display: flex;
+    position: relative;
+    height: -moz-fit-content;
+    margin-top: 76px;
+    margin-left: -12px;
+    height: fit-content;
+    padding: 16px 6px 13px 77px;
+    background-color: #131313;
+    gap: 30px;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.tost_line p{
+    font-size: 13px;
+}
+.tost_line div{
+    width: 20%;
+    z-index: 10;
+}
+.tost_line img{
+    color: transparent;
+    position: absolute;
+    width: 34%;
+    height: 64%;
+    bottom: 0px;
+    right: 4%;
+}
+
+@media (max-width: 750px) {
+    .cont {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .left {
+        width: 100%;
+        color: white;
+        position: relative;
+    }
+    .right {
+        width: 100%;
+        position: relative;
+    }
+
+}
